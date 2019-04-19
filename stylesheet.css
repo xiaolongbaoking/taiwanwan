@@ -24,7 +24,7 @@ a {
 
 .top-wrapper{
   padding:180px 0 100px 0;
-  background-image: url(C:/Users/shota/Desktop/html_website/images/top/img_background.jpg);
+  background-image: url(https://raw.githubusercontent.com/xiaolongbaoking/taiwanwan/master/images/top/img_background.JPG);
   background-size:cover;
   color:white;
   text-align:center;
@@ -110,20 +110,14 @@ header{
   display:block;
   cursor:pointer;
   }
-  .header-left{
-    float:left;
-    font-size:30px;
-    display:inline-block;
-    position:absolute;
-    margin:40px 0 40px 0;
-    opacity:0.7;
-  }
-  .header-left:hover{
-    opacity:1;
-  }
-  .header-left a{
+  .header-bottom a{
     color:white;
+    display:inline-block;
+    margin-right: 10px:
+
   }
+
+  header
   .fa-home{
     color:white;
   }
