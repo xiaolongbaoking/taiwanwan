@@ -32,4 +32,7 @@
   .top-wrapper h2{
     font-size:14px;
   }
+  .message-right{
+    width:80%;
+  }
 }
