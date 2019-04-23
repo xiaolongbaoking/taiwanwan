@@ -15,21 +15,48 @@ a {
   clear: left;
 }
 
-.container {
+.container{
   max-width: 1170px;
-  width: 100%;
-  padding: 0 10px;
-  margin: 0 auto;
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
 }
 
-.top-wrapper{
-  padding:180px 0 100px 0;
-  background-image: url(https://raw.githubusercontent.com/xiaolongbaoking/taiwanwan/master/images/top/img_background.JPG);
-  background-size:cover;
+header{
+  width:100%;
+  height:150px;
+  background-color:rgba(34,49,52,0.6);
+  padding-top:5px;
   color:white;
+}
+.header-center{
   text-align:center;
+  cursor:pointer;
+  display: block;
+}
+.menu{
+  color:white;
+  margin-right:65px;
+  opacity:0.7;
+  transition:all 0.1s;
+  text-align:center;
+  display: inline-block;
+
+}
+.menu:hover{
+  opacity:1;
+  color:red;
 }
 
+/*top-wrapper を書く*/
+.top-wrapper{
+  background-image:url(https://raw.githubusercontent.com/xiaolongbaoking/taiwanwan/master/images/top/background_image.jpg);
+  text-align:center;
+  background-size:cover;
+  padding:100px 0 100px 0;
+  color:white;
+
+}
 .top-wrapper h1{
   opacity:0.8;
   font-size:45px;
@@ -62,122 +89,48 @@ a {
   background-color:#55acee;
 }
 
-.content-wrapper{
-  padding-bottom:360px;
-  padding-left:2px;
-  padding-right:2px;
+/*コンテンツ部分の編集*/
+
+.content-wrapper {
+  padding:180 100px 0;
+  height:1100px;
   background-color:#f7f7f7;
   text-align:center;
 }
-.heading{
+
+.heading {
   padding-top:80px;
   padding-bottom:50px;
   color:#5f5d60;
+  text-align:center;
 }
-.heading h2{
-  font-weight:normal;
-}
+
 .content{
   float:left;
-  width:23%;
-  border:1px solid black;
-  margin:0 10px;
-    background-color:#f7f7f7;
-}
-.content-icon{
-  height:50%;
   width:50%;
+  text-align:center;
+  cursor:pointer;
+  transition:all 0.5s;
+}
+.content:hover{
+  background-color:rgba(0,255,0,0.1);
 }
 .content p{
-  width:80%;
-  display:inline-block;
-  margin-top:15px;
-  font-size:13px;
-  color:#b3aeb5;
+  width: 60%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
 }
-header{
-  height:auto;
-  width:100%;
-  background-color:rgba(34,49,52,0.6);
-  position:fixed;
-  top:0;
-  z-index:10;
-  color:white;
-
+.content-icon{
+  height:60%;
+  width:60%;
 }
-.header-center {
-  text-align:center;
-  display:block;
-  cursor:pointer;
-  }
-  .header-bottom a{
-    color:white;
-    display:inline-block;
-    margin-right: 10px:
-    text-align:center;
-  }
-
-  header
-  .fa-home{
-    color:white;
-  }
-
-.message-wrapper{
-
-
-  padding-top:50px;
-  padding-bottom:450px;
-}
-.section-title  {
-  border-bottom:2px solid #dee7cc;
-  padding-bottom:15px;
-  margin-bottom:50px;
-}
-textarea,input{
-  width:500px;
-
-  margin-bottom:3px;
-  padding:20px;
-  font-size:15px;
-  border:1px solid #dee7cc;
-}
-.contact-submit{
-  background-color:#dee7ec;
-  color:#889eab;
-  cursor:pointer;
-  box-shadow:0 7px #55acee;
-}
-.contact-submit:active{
-  position:relative;
-  top:7px;
-  box-shadow: none;
-}
-
-.message-right{
-  float:right;
-}
-.message-left{
-  float:left;
-
-}
-.fab{
-  margin-right:5px;
+.content h3{
+  color:#55acee;
+  opacity:0.8;
 }
 footer{
-  margin-top:50px;
-  border-top:1px solid #eee;
+  padding:10px 0 5px 0;
   text-align:center;
-  background-color:#dee7cc;
-  height:100px;
-}
-.footer-logo{
-  display:block;
-
-}
-.footer-home{
-  margin-top:25px;
-  margin-bottom:30px;
-}
-.home-logo{
-  color:black;
 }
