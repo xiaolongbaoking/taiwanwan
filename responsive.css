@@ -1,0 +1,21 @@
+@media all and(max-width: 670px){
+  .menu{
+    margin-right:10px;
+  }
+  .header-center{
+    float:left;
+    }
+
+  .top-wrapper h1{
+    font-size:24px;
+  }
+  .top-wrapper h2{
+    font-size:14px;
+  }
+  .top-wrapper{
+    text-align:left;
+  }
+  .content{
+    width:100%;
+  }
+}
